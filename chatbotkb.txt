@@ -1,0 +1,44 @@
+knowledge_base = """
+📊 Sales & Profit Insights:
+- The West region had the highest total profit: $110,000+
+- Technology was the most profitable product category.
+- Phones were the top-selling sub-category by revenue.
+- New York City contributed the most to total sales.
+
+📉 Discount Patterns:
+- Discounts above 30% were associated with an average loss of $-107.21.
+- Profit is negatively correlated with discount (-0.22), especially for Office Supplies.
+
+🛍️ Sub-Category Trends:
+- Top 3 sub-categories by sales: Phones, Chairs, Storage.
+- Office Supplies had the lowest total sales among main categories.
+
+🚚 Shipping Behavior:
+- Standard Class is the most common shipping mode (~60% of all orders).
+- Same Day shipping is least used.
+
+📈 Forecasting Model Performance:
+- Prophet Model (90-day daily forecast):
+  • MAE: $30,068
+  • RMSE: $39,346
+  • MAPE: 13.87%
+  • Forecast shows stable sales trend with weekly seasonality.
+  • X days are forecasted to have sales below $10,000.
+
+- ARIMA Model (6-month forecast):
+  • MAE: $32,110
+  • RMSE: $41,920
+  • MAPE: 15.20%
+  • Struggles to capture holiday spikes or sharp peaks.
+
+👥 Customer Segmentation (Clustering):
+- Cluster 0: High quantity, low profit, high discount → Low engagement. Needs re-engagement campaigns.
+- Cluster 1: High sales & profit, low discount → Best customers. Target for upselling & loyalty rewards.
+- Cluster 2: Low sales, low quantity, low profit → Inactive or unengaged customers.
+
+🧠 General Insights:
+- Sales show seasonal peaks around Q4 (Oct–Dec).
+- Profit and sales are positively correlated (0.48).
+- Most sales are concentrated in major cities and urban states.
+
+"""

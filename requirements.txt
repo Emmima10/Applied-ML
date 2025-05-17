@@ -1,8 +1,14 @@
-numpy
+imbalanced-learn
 pandas
+numpy
 matplotlib
 seaborn
 scikit-learn
-imbalanced-learn
+statsmodels
+pmdarima
+ydata-profiling
 xgboost
 prophet
+openai
+streamlit
+transformers
